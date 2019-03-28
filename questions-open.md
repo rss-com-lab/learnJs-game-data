@@ -78,4 +78,10 @@ chooseOptions:
       correctAnswer: ["undefined", "Undefined", "UNDEFINED"]
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof
       complexity: low
+      
+    - questionTitle: Что вернет следующий код?
+      questionDescription: [console.log(typeof \[\])]
+      correctAnswer: ["object", "Object", "OBJECT"]
+      explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof
+      complexity: low  
 ---
