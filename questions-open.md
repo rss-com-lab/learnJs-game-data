@@ -80,7 +80,7 @@ chooseOptions:
       complexity: low
       
     - questionTitle: Что вернет следующий код?
-      questionDescription: [console.log(typeof "[]")]
+      questionDescription: [console.log(typeof [])]
       correctAnswer: ["object", "Object", "OBJECT"]
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof
       complexity: low  
