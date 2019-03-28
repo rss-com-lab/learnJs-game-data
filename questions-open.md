@@ -82,5 +82,5 @@ data:
     questionDescription: [console.log(typeof undefined)]
     correctAnswer: ["undefined", "Undefined", "UNDEFINED"]
     explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof
-    complexity: low    
+    complexity: low
 ---
