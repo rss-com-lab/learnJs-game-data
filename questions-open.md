@@ -36,7 +36,7 @@ data:
     explanation: http://javascript.info/type-conversionsf
     complexity: low
     
-    - questionTitle: Что вернет следующий код?
+  - questionTitle: Что вернет следующий код?
     questionDescription: [console.log(typeof typeof(1))]
     correctAnswer: ["string", "String", "STRING"]
     explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof
