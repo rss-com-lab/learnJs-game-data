@@ -172,5 +172,4 @@ chooseOptions:
       complexity: "low"
       theme: 1
 
-    - responseTime: 300000
 ---
