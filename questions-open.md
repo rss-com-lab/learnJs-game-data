@@ -27,13 +27,13 @@ typeAnswer:
 
     - questionTitle: Какой будет результат?
       questionDescription: [Boolean("JavaScript")]
-      correctAnswer: true
+      correctAnswer: "true"
       explanation: http://javascript.info/type-conversions
       complexity: low
 
     - questionTitle: Какой будет результат?
       questionDescription: [Boolean(undefined)]
-      correctAnswer: false
+      correctAnswer: "false"
       explanation: http://javascript.info/type-conversions
       complexity: low
 
