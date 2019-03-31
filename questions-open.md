@@ -21,61 +21,61 @@ typeAnswer:
 
     - questionTitle: Какой будет результат?
       questionDescription: [(null + "2") * "3" + 5]
-      correctAnswer: [nan, NaN, NAN]
+      correctAnswer: "\"NaN\""
       explanation: http://javascript.info/type-conversions
       complexity: low
 
     - questionTitle: Какой будет результат?
       questionDescription: [Boolean("JavaScript")]
-      correctAnswer: ["true", "True", "TRUE"]
+      correctAnswer: true
       explanation: http://javascript.info/type-conversions
       complexity: low
 
     - questionTitle: Какой будет результат?
       questionDescription: [Boolean(undefined)]
-      correctAnswer: ["false", "False", "FALSE"]
+      correctAnswer: false
       explanation: http://javascript.info/type-conversions
       complexity: low
 
     - questionTitle: Что вернет следующий код?
       questionDescription: [console.log(typeof true)]
-      correctAnswer: ["boolean", "Boolean", "BOOLEAN"]
+      correctAnswer: "\"boolean\""
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof
       complexity: low
 
     - questionTitle: Что вернет следующий код?
       questionDescription: [console.log(typeof NaN)]
-      correctAnswer: ["number", "Number", "NUMBER"]
+      correctAnswer: "\"number\""
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof
       complexity: low
 
     - questionTitle: Что вернет следующий код?
       questionDescription: [console.log(typeof typeof(1))]
-      correctAnswer: ["string", "String", "STRING"]
+      correctAnswer: "\"string\""
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof
       complexity: low
 
     - questionTitle: Что вернет следующий код?
       questionDescription: [console.log(typeof 'true')]
-      correctAnswer: ["string", "String", "STRING"]
+      correctAnswer: "\"string\""
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof
       complexity: low  
 
     - questionTitle: Что вернет следующий код?
       questionDescription: [console.log(typeof isNaN)]
-      correctAnswer: ["function", "Function", "FUNCTION"]
+      correctAnswer: "\"function\""
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof
       complexity: low
 
     - questionTitle: Что вернет следующий код?
       questionDescription: [console.log(typeof null)]
-      correctAnswer: ["object", "Object", "OBJECT"]
+      correctAnswer: "\"object\""
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof
       complexity: low
 
     - questionTitle: Что вернет следующий код?
       questionDescription: [console.log(typeof undefined)]
-      correctAnswer: ["undefined", "Undefined", "UNDEFINED"]
+      correctAnswer: "\"undefined\""
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof
       complexity: low
 ---
