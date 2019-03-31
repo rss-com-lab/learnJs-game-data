@@ -1,5 +1,5 @@
 ---
-chooseOptions:
+typeAnswer:
   data: 
     - questionTitle: Какой будет результат?
       questionDescription: [2 + 9 + "1"]
