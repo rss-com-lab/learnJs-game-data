@@ -15,7 +15,7 @@ typeAnswer:
 
     - questionTitle: Какой будет результат?
       questionDescription: [null + "8" / "4"]
-      correctAnswer: "\"2\""
+      correctAnswer: "2"
       explanation: http://javascript.info/type-conversions
       complexity: low
 
