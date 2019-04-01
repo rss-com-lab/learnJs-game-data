@@ -36,7 +36,7 @@
                     ],
                     "correctAnswer": "\"111\"",
                     "explanation": "http://javascript.info/type-conversions",
-                    "complexity": "low"
+                    "complexity": "1"
           },
           {
                     "questionTitle": "Какой будет результат?",
@@ -45,7 +45,7 @@
                     ],
                     "correctAnswer": "\"129\"",
                     "explanation": "http://javascript.info/type-conversions",
-                    "complexity": "low"
+                    "complexity": "1"
           },
           {
                     "questionTitle": "Какой будет результат?",
@@ -54,7 +54,7 @@
                     ],
                     "correctAnswer": "2",
                     "explanation": "http://javascript.info/type-conversions",
-                    "complexity": "low"
+                    "complexity": "1"
           },
           {
                     "questionTitle": "Какой будет результат?",
@@ -63,7 +63,7 @@
                     ],
                     "correctAnswer": "\"NaN\"",
                     "explanation": "http://javascript.info/type-conversions",
-                    "complexity": "low"
+                    "complexity": "1"
           },
           {
                     "questionTitle": "Какой будет результат?",
@@ -72,7 +72,7 @@
                     ],
                     "correctAnswer": "true",
                     "explanation": "http://javascript.info/type-conversions",
-                    "complexity": "low"
+                    "complexity": "1"
           },
           {
                     "questionTitle": "Какой будет результат?",
@@ -81,7 +81,7 @@
                     ],
                     "correctAnswer": "false",
                     "explanation": "http://javascript.info/type-conversions",
-                    "complexity": "low"
+                    "complexity": "1"
           },
           {
                     "questionTitle": "Что вернет следующий код?",
@@ -90,7 +90,7 @@
                     ],
                     "correctAnswer": "\"boolean\"",
                     "explanation": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
-                    "complexity": "low"
+                    "complexity": "1"
           },
           {
                     "questionTitle": "Что вернет следующий код?",
@@ -99,7 +99,7 @@
                     ],
                     "correctAnswer": "\"number\"",
                     "explanation": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
-                    "complexity": "low"
+                    "complexity": "1"
           },
           {
                     "questionTitle": "Что вернет следующий код?",
@@ -108,7 +108,7 @@
                     ],
                     "correctAnswer": "\"string\"",
                     "explanation": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
-                    "complexity": "low"
+                    "complexity": "1"
           },
           {
                     "questionTitle": "Что вернет следующий код?",
@@ -117,7 +117,7 @@
                     ],
                     "correctAnswer": "\"string\"",
                     "explanation": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
-                    "complexity": "low"
+                    "complexity": "1"
           },
           {
                     "questionTitle": "Что вернет следующий код?",
@@ -126,7 +126,7 @@
                     ],
                     "correctAnswer": "\"function\"",
                     "explanation": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
-                    "complexity": "low"
+                    "complexity": "1"
           },
           {
                     "questionTitle": "Что вернет следующий код?",
@@ -135,7 +135,7 @@
                     ],
                     "correctAnswer": "\"object\"",
                     "explanation": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
-                    "complexity": "low"
+                    "complexity": "1"
           },
           {
                     "questionTitle": "Что вернет следующий код?",
@@ -144,7 +144,7 @@
                     ],
                     "correctAnswer": "\"undefined\"",
                     "explanation": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
-                    "complexity": "low"
+                    "complexity": "1"
           }
 ],
         "responseTime":300000
