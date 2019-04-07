@@ -78,4 +78,16 @@ typeAnswer:
       correctAnswer: "\"undefined\""
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof
       complexity: "1"
+      
+    - questionTitle: Что вернет следующий код?
+      questionDescription: [console.log(0.1 + 0.2 == 0.3)]
+      correctAnswer: "false"
+      explanation: https://www.w3schools.com/js/js_numbers.asp
+      complexity: "2"
+      
+    - questionTitle: Вопрос
+      questionDescription: ['Метод Object.? используется для', 'клонирования объектов']
+      correctAnswer: "assign()"
+      explanation: https://medium.com/@Farzad_YZ/3-ways-to-clone-objects-in-javascript-f752d148054d
+      complexity: "2"
 ---
