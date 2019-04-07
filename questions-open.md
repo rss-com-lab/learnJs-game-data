@@ -80,7 +80,7 @@ typeAnswer:
       complexity: "1"
       
     - questionTitle: Что вернет следующий код?
-      questionDescription: [console.log(0.1 + 0.2 == 0.3)\[\]]
+      questionDescription: [console.log(0.1 + 0.2 == 0.3)\\\[\\\]]
       correctAnswer: "false"
       explanation: https://www.w3schools.com/js/js_numbers.asp
       complexity: "2"
