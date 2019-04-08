@@ -100,9 +100,38 @@ typeAnswer:
       theme: Типы данных
       
     - questionTitle: Вопрос
-      questionDescription: ['Метод Object.? используется для', 'клонирования объектов']
+      questionDescription: ['Какой метод Object.? используется для', 'клонирования объектов?']
       correctAnswer: "assign()"
       explanation: https://medium.com/@Farzad_YZ/3-ways-to-clone-objects-in-javascript-f752d148054d
       complexity: "2"
       theme: Объекты в JS
+      
+    - questionTitle: 
+      questionDescription: []
+      correctAnswer: ""
+      explanation: 
+      complexity: "2"
+      theme: 
+      
+    - questionTitle: 
+      questionDescription: []
+      correctAnswer: ""
+      explanation: 
+      complexity: "2"
+      theme: 
+      
+    - questionTitle: 
+      questionDescription: []
+      correctAnswer: ""
+      explanation: 
+      complexity: "2"
+      theme: 
+     
+    - questionTitle: Что вернёт следующий код?
+      questionDescription: "[const arr = \[10, 12, 15, 21\];, for (var i = 0; i < arr.length; i++) {, setTimeout(function() {,
+      console.log('Index: ' + i + ', element: ' + arr[i]);, }, 3000);, }]"
+      correctAnswer: ""
+      explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures
+      complexity: "3"
+      theme: Closures
 ---
