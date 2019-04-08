@@ -140,4 +140,25 @@ typeAnswer:
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures
       complexity: "3"
       theme: Closures
+      
+    - questionTitle: 
+      questionDescription: []
+      correctAnswer: ""
+      explanation: 
+      complexity: "3"
+      theme: 
+      
+    - questionTitle: 
+      questionDescription: []
+      correctAnswer: ""
+      explanation: 
+      complexity: "3"
+      theme: 
+      
+     - questionTitle: 
+      questionDescription: []
+      correctAnswer: ""
+      explanation: 
+      complexity: "3"
+      theme:  
 ---
