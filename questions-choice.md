@@ -172,18 +172,18 @@ chooseOptions:
       complexity: "low"
       theme: 1
       
-      - questionTitle: "Какое значение будет выведено в консоли?"
+      - questionTitle: "Какие методы массива возвращают новый массив?"
       questionDescription: 
-        - "var z = 1, y = z = typeof y;"
-        - "console.log(y);"
       answers: 
-        - "'undefined'"
-        - "1"
-        - "undefined" 
-        - "NaN"
-      correctAnswer: "'undefined'"
-      explanation: "Почитать про порядок выполнения операторов и ассоциативность на [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)"
+        - "some()"
+        - "map()"
+        - "filter()" 
+        - "forEach()"
+      correctAnswer: 
+        - "map()"
+        - "filter()"
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
       complexity: "low"
-      theme: 1
+      theme: "Массивы"
 
 ---
