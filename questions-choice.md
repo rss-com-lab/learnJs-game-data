@@ -172,7 +172,7 @@ chooseOptions:
       complexity: "low"
       theme: 1
   
-  - questionTitle: "Какие методы массива вернут строку как результат?"
+    - questionTitle: "Какие методы массива вернут строку как результат?"
       questionDescription: 
       answers: 
         - "slice()"
