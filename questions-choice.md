@@ -172,16 +172,19 @@ chooseOptions:
       complexity: "low"
       theme: 1
   
-  - questionTitle: "Что вернет метод fill?"
-      questionDescription: [1,2,3,4,5,6].fil(0,2,3) 
+  - questionTitle: "Какие методы массива вернут строку как результат?"
+      questionDescription: 
       answers: 
-        - [0,2,3,4,5,6]
-        - [1,2,0,4,5,6]
-        - [1,2,3,0,5,6] 
-        - [1,2,0,0,0,0]
-      correctAnswer: [1,2,0,4,5,6]
-      explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/fill
-      complexity: 1
-      theme: Массивы
+        - "slice()"
+        - "toString()"
+        - "join()"
+        - "splice()"
+        - "concat()"
+      correctAnswer: 
+        - "toString()"
+        - "join()"
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
+      complexity: "2"
+      theme: "Массивы"
       
 ---
