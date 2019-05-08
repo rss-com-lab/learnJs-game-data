@@ -1,7 +1,7 @@
 ---
 chooseOptions:
   data: 
-    |- questionTitle: "Выбери правильный ответ"
+    - questionTitle: "Выбери правильный ответ"
       questionDescription: 
         - "Кто является основным создателем языка Java Script?"
       answers: 
@@ -12,7 +12,7 @@ chooseOptions:
       correctAnswer: "Брендан Эйх"
       explanation: "[wiki](https://ru.wikipedia.org/wiki/JavaScript)"
       complexity: "low"
-      theme: 1 |
+      theme: 1 
    
     - questionTitle: "Какую строку выведет console.log?"
       questionDescription: 
@@ -196,6 +196,22 @@ chooseOptions:
         - "[1,2,0,0,0,0]"
       correctAnswer: "[1,2,0,4,5,6]"
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/fill"
+      complexity: "1"
+      theme: "Массивы"
+      
+    - questionTitle: "Какие методы массива вернут boolean как результат?"
+      questionDescription: 
+      answers:   
+        - "every()"
+        - "some()"
+        - "indexOf()"
+        - "includes()"
+        - "toString()"
+      correctAnswer: 
+        - "every()"
+        - "some()"
+        - "includes()"
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
       complexity: "1"
       theme: "Массивы"
 ---
