@@ -12,8 +12,8 @@ chooseOptions:
       correctAnswer: "Брендан Эйх"
       explanation: "[wiki](https://ru.wikipedia.org/wiki/JavaScript)"
       complexity: "low"
-      theme: 1
-   <br/>
+      theme: 1 |
+   
     - questionTitle: "Какую строку выведет console.log?"
       questionDescription: 
         - "var a='1';"
