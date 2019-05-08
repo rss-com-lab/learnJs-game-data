@@ -183,7 +183,35 @@ chooseOptions:
         - "map()"
         - "filter()"
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
-      complexity: "low"
+      complexity: "1"
+      theme: "Массивы"
+      
+    - questionTitle: "Какой из методов массива удалит и вернет первый элемент массива?"
+      questionDescription: 
+      answers: 
+        - "pop()"
+        - "shift()"
+        - "unshift()" 
+        - "push()"
+      correctAnswer: "shift()"
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
+      complexity: "1"
+      theme: "Массивы"
+      
+    - questionTitle: "Какие из методов или свойств массива вернут длину нового/существующего  массива?"
+      questionDescription: 
+      answers: 
+        - "pop"
+        - "shift"
+        - "length"
+        - "unshift" 
+        - "push"
+      correctAnswer: 
+        - "push"
+        - "unshift"
+        - "length"
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
+      complexity: "2"
       theme: "Массивы"
 
 ---
