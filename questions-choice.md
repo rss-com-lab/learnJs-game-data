@@ -171,5 +171,19 @@ chooseOptions:
       explanation: "Почитать про порядок выполнения операторов и ассоциативность на [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)"
       complexity: "low"
       theme: 1
+      
+      - questionTitle: "Какое значение будет выведено в консоли?"
+      questionDescription: 
+        - "var z = 1, y = z = typeof y;"
+        - "console.log(y);"
+      answers: 
+        - "'undefined'"
+        - "1"
+        - "undefined" 
+        - "NaN"
+      correctAnswer: "'undefined'"
+      explanation: "Почитать про порядок выполнения операторов и ассоциативность на [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)"
+      complexity: "low"
+      theme: 1
 
 ---
