@@ -172,16 +172,16 @@ chooseOptions:
       complexity: "low"
       theme: 1
       
-      - questionTitle: "Какие методы массива возвращают новый массив?"
+    - questionTitle: "Какие методы массива возвращают новый массив?"
       questionDescription: 
       answers: 
-        - "some()"
-        - "map()"
-        - "filter()" 
-        - "forEach()"
+        - "some\(\)"
+        - "map\(\)"
+        - "filter\(\)" 
+        - "forEach\(\)"
       correctAnswer: 
-        - "map()"
-        - "filter()"
+        - "map\(\)"
+        - "filter\(\)"
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
       complexity: "1"
       theme: "Массивы"
@@ -189,11 +189,11 @@ chooseOptions:
     - questionTitle: "Какой из методов массива удалит и вернет первый элемент массива?"
       questionDescription: 
       answers: 
-        - "pop()"
-        - "shift()"
-        - "unshift()" 
-        - "push()"
-      correctAnswer: "shift()"
+        - "pop\(\)"
+        - "shift\(\)"
+        - "unshift\(\)" 
+        - "push\(\)"
+      correctAnswer: "shift\(\)"
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
       complexity: "1"
       theme: "Массивы"
@@ -214,62 +214,4 @@ chooseOptions:
       complexity: "2"
       theme: "Массивы"
       
-      - questionTitle: "Что вернет метод fill?"
-      questionDescription: "[1,2.3,4,5,6].fil(0,2,3)" 
-      answers: 
-        - "[0,2,3,4,5,6]"
-        - "[1,2,0,4,5,6]"
-        - "[1,2,3,0,5,6]" 
-        - "[1,2,0,0,0,0]"
-      correctAnswer: "[1,2,0,4,5,6]"
-      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/fill"
-      complexity: "1"
-      theme: "Массивы"
-      
-      - questionTitle: "Какие методы массива вернут строку как результат?"
-      questionDescription: 
-      answers: 
-        - "slice()"
-        - "toString()"
-        - "join()"
-        - "splice()"
-        - "concat()"
-      correctAnswer: 
-        - "toString()"
-        - "join()"
-      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
-      complexity: "2"
-      theme: "Массивы"
-      
-      - questionTitle: "Какие методы массива вернут boolean как результат?"
-      questionDescription: 
-      answers:   
-        - "every()"
-        - "some()"
-        - "indexOf()"
-        - "includes()"
-        - "toString()"
-      correctAnswer: 
-        - "every()"
-        - "some()"
-        - "includes()"
-      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
-      complexity: "1"
-      theme: "Массивы"
-      
-    - questionTitle: "При помощи какого метода можно создать новый массив?"
-      questionDescription: 
-      answers:   
-       - "of()"
-       - "reverse()"
-       - "sort()"
-       - "from()"
-       - "indexOf()"
-      correctAnswer: 
-        - "of()"
-        - "from()"
-      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
-      complexity: "2"
-      theme: "Массивы"
-
 ---
