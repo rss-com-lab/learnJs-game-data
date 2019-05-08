@@ -230,16 +230,16 @@ chooseOptions:
       complexity: "2"
       theme: "Массивы"
 
-	  - questionTitle: "Какие методы массива возвращают новый массив?"
+    - questionTitle: "Какие методы массива возвращают новый массив?"
       questionDescription: 
       answers: 
-        - "some\(\)"
-        - "map\(\)"
-        - "filter\(\)" 
-        - "forEach\(\)"
+        - "some()"
+        - "map()"
+        - "filter()" 
+        - "forEach()"
       correctAnswer: 
-        - "map\(\)"
-        - "filter\(\)"
+        - "map()"
+        - "filter()"
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
       complexity: "1"
       theme: "Массивы"
@@ -247,11 +247,11 @@ chooseOptions:
     - questionTitle: "Какой из методов массива удалит и вернет первый элемент массива?"
       questionDescription: 
       answers: 
-        - "pop\(\)"
-        - "shift\(\)"
-        - "unshift\(\)" 
-        - "push\(\)"
-      correctAnswer: "shift\(\)"
+        - "pop()"
+        - "shift()"
+        - "unshift()" 
+        - "push()"
+      correctAnswer: "shift()"
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
       complexity: "1"
       theme: "Массивы"
