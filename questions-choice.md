@@ -1,7 +1,7 @@
 ---
 chooseOptions:
   data: 
-    - questionTitle: "Выбери правильный ответ"
+    |- questionTitle: "Выбери правильный ответ"
       questionDescription: 
         - "Кто является основным создателем языка Java Script?"
       answers: 
