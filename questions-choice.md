@@ -290,14 +290,14 @@ chooseOptions:
     - questionTitle: "Какие из методов вернут массив?"
       questionDescription:
       answers:
-		- Object.valueOf()
-		- Object.keys()
-		- Object.values()
-		- Object.entries()
+      - "Object.valueOf()"
+      - Object.keys()
+      - Object.values()
+      - Object.entries()
       correctAnswer: 
-        - Object.keys()
-		- Object.values()
-		- Object.entries()
+      - Object.keys()
+      - Object.values()
+      - Object.entries()
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object"
       complexity: "1"
       theme: Объекты
