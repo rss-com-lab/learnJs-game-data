@@ -298,7 +298,7 @@ chooseOptions:
       correctAnswer: 
         - "splice()"
         - "reverse()"
-		- "pop()"
+	- "pop()"
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
       complexity: "2"
       theme: "Массивы"
