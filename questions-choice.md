@@ -280,10 +280,10 @@ chooseOptions:
         - "reverse()"
         - "some()"
         - "pop()"
-      correctAnswer: 
+      correctAnswer:
+      	- "pop()"
         - "splice()"
         - "reverse()"
-	- "pop()"
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
       complexity: "2"
       theme: "Массивы"
