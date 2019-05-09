@@ -302,7 +302,7 @@ chooseOptions:
       complexity: "1"
       theme: Объекты
       
-      - questionTitle: "Что в данном случае вернет метод Object.values?"
+    - questionTitle: "Что в данном случае вернет метод Object.values?"
       questionDescription: "console.log(Object.values("foo"));"
       answers:
         - ['foo']
