@@ -271,4 +271,35 @@ chooseOptions:
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
       complexity: "2"
       theme: "Массивы"
+      
+    - questionTitle: "Какие методы массива изменяют исходный массив?"
+      questionDescription: 
+      answers: 
+        - "slice()"
+        - "splice()"
+        - "reverse()"
+        - "some()"
+        - "pop()"
+      correctAnswer: 
+        - "splice()"
+        - "reverse()"
+		    - "pop()"
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
+      complexity: "2"
+      theme: "Массивы"
+      
+    - questionTitle: "Что вернет метод slice?"
+      questionDescription: [1, 2, 3, 4, 5, 6].slice(2,3)
+      answers: 
+        - 3
+        - [‘2’]
+        - [2,3]
+        - [2]
+        - [‘2’, ‘3’]
+        - [3]
+      correctAnswer: 
+        - [3]
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/slice"
+      complexity: "1"
+      theme: "Массивы"
 ---
