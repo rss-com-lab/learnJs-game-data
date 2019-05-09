@@ -302,6 +302,21 @@ chooseOptions:
       complexity: "1"
       theme: Объекты
       
+    - questionTitle: "Какой из методов устанавливают дескрипторы свойств?"
+      questionDescription:
+      answers:
+      - Object.hasOwnProperty()
+      - Object.is()
+      - Object.getOwnPropertyDescriptor()
+      - Object.defineProperty()
+      - Object.defineProperties()
+      correctAnswer: 
+      - Object.defineProperty()
+      - Object.defineProperties()
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object"
+      complexity: "1"
+      theme: Объекты
+      
     
       
 ---
