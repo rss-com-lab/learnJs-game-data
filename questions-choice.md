@@ -287,20 +287,19 @@ chooseOptions:
       complexity: "1"
       theme: "Массивы"
       
-    - questionTitle: "Какие методы массива изменяют исходный массив?"
-      questionDescription: 
-      answers: 
-        - slice
-        - splice
-        - reverse
-        - some
-        - pop
-      correctAnswer:
-        - splice
-	- pop
-        - reverse
-      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
-      complexity: "2"
-      theme: Массивы
+    - questionTitle: "Какие из методов вернут массив?"
+      questionDescription:
+      answers:
+	- Object.valueOf()
+	- Object.keys()
+	- Object.values()
+	- Object.entries()
+      correctAnswer: 
+        - Object.keys()
+	- Object.values()
+	- Object.entries()
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object"
+      complexity: "1"
+      theme: Объекты
       
 ---
