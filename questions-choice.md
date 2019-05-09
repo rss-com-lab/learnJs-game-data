@@ -301,5 +301,18 @@ chooseOptions:
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object"
       complexity: "1"
       theme: Объекты
+	  
+	- questionTitle: "Что в данном случае вернет метод Object.values?"
+      questionDescription: "console.log(Object.values("foo"));"
+      answers: 
+	  - ['foo']
+	  - ['f', 'o', 'o']
+	  - undefined,
+	  - TypeError
+      correctAnswer: 
+        - ['f', 'o', 'o']
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/values"
+      complexity: "2"
+      theme: Объекты
       
 ---
