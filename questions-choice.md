@@ -297,8 +297,8 @@ chooseOptions:
         - pop
       correctAnswer:
         - splice
-        - reverse
 	- pop
+        - reverse
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
       complexity: "2"
       theme: Массивы
