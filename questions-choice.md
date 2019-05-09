@@ -317,6 +317,20 @@ chooseOptions:
       complexity: "1"
       theme: Объекты
       
+    - questionTitle: "Number в JS по умолчанию хранятся в:"
+      questionDescription:
+      answers:
+      - 64 бита
+      - 32 бита
+      - 16 бит
+      - 8 бит
+      correctAnswer: 
+      - 64 бита
+      - Object.defineProperties()
+      explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Data_structures
+      complexity: "1"
+      theme: Типы данных
+      
     
       
 ---
