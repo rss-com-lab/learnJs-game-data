@@ -326,10 +326,25 @@ chooseOptions:
       - 8 бит
       correctAnswer: 
       - 64 бита
-      - Object.defineProperties()
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Data_structures
       complexity: "1"
       theme: Типы данных
+      
+    - questionTitle: "Выберите движки JS:"
+      questionDescription:
+      answers:
+      - V8
+      - JavaScripCore
+      - Chakra
+      - SpiderMonkey
+      correctAnswer: 
+      - V8
+      - JavaScripCore
+      - Chakra
+      - SpiderMonkey
+      explanation: https://habr.com/ru/company/otus/blog/446446/
+      complexity: "1"
+      theme: 
       
     
       
