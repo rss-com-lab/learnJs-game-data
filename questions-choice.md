@@ -302,7 +302,7 @@ chooseOptions:
       complexity: "1"
       theme: Объекты
       
-       - questionTitle: "Какие из методов вернут массив?"
+    - questionTitle: "Какие из методов вернут массив?"
       questionDescription:
       answers:
       - "Object.valueOf()"
