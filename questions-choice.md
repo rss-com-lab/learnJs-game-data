@@ -290,17 +290,17 @@ chooseOptions:
     - questionTitle: "Какие методы массива изменяют исходный массив?"
       questionDescription: 
       answers: 
-        - "slice()"
-        - "splice()"
-        - "reverse()"
-        - "some()"
-        - "pop()"
-      correctAnswer: 
-        - "splice()"
-        - "reverse()"
-	- "pop()"
+        - slice
+        - splice
+        - reverse
+        - some
+        - pop
+      correctAnswer:
+        - splice
+        - reverse
+	- pop
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
       complexity: "2"
-      theme: "Массивы"
+      theme: Массивы
       
 ---
