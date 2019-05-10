@@ -346,6 +346,25 @@ chooseOptions:
       complexity: "1"
       theme: 
       
-    
+    - questionTitle: "Что выведет  в консоль?"
+      questionDescription:
+        -"var scope = "global";"
+        -"function outer() {"
+        -"function scope() {"
+        -"console.log(scope);"
+        -"}"
+        -"scope();"
+        -"}"
+        -"outer();"
+      answers:
+        -"global"
+        -"object window"
+        -"ReferenceError"
+        -"тело функции scope"
+      correctAnswer:
+        -"тело функции scope"
+      explanation: http://speakingjs.com/es5/ch16.html
+      complexity: "1"
+      theme: Scope
       
 ---
