@@ -389,7 +389,48 @@ chooseOptions:
       correctAnswer:
         -"3"
       explanation: http://speakingjs.com/es5/ch16.html
+      complexity: "2"
+      theme: Scope
+      
+    - questionTitle: "Что выведет  в консоль?"
+      questionDescription:
+        -"var x = 21;"
+        -"var girl = function () {"
+        -"console.log(x);"
+        -"var x = 20;
+        -"};"
+        -"girl ();"
+      answers:
+        -"undefined"
+        -"20"
+        -"21"
+        -"ReferenceError"
+      correctAnswer:
+        -"undefined"
+      explanation: http://speakingjs.com/es5/ch16.html
       complexity: "1"
+      theme: Scope
+      
+    - questionTitle: "Что выведет  в консоль?"
+      questionDescription:
+        -"function () {"
+        -"try {"
+        "throw new Error();"
+        -"} catch (x) {"
+        -"var x = 1, y = 2;"
+        -"console.log(x);"
+        -"}"
+        -"console.log(x);"
+        -"console.log(y);"
+        -"})();"
+      answers:
+        -"1, undefined, 2"
+        -"1, 1, 2"
+        -"1, undefined, undefined"
+      correctAnswer:
+        -"1, undefined, 2"
+      explanation: https://dev.opera.com/articles/efficient-javascript/?page=2#trycatch
+      complexity: "3"
       theme: Scope
       
 ---
