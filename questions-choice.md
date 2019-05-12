@@ -433,4 +433,22 @@ chooseOptions:
       complexity: "3"
       theme: Scope
       
+    - questionTitle: "Что выведет  в консоль?"
+      questionDescription:
+        -"(function(x) {"
+        -"return (function(y) {"
+        -"console.log(x);"
+        -"})(2)"
+        -"})(1);"
+      answers:
+        -"undefined"
+        -"2"
+        -"1"
+        -"ReferenceError"
+      correctAnswer:
+        -"1"
+      explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures
+      complexity: "1"
+      theme: Замыкание
+      
 ---
