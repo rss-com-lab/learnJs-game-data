@@ -1,9 +1,8 @@
 ---
 chooseOptions:
   data: 
-    - questionTitle: "Выбери правильный ответ"
-      questionDescription: 
-        - "Кто является основным создателем языка Java Script?"
+    - questionTitle: "Кто является основным создателем языка Java Script?"
+      questionDescription:
       answers: 
         - "Бил Гейтс"
         - "Линус Торвальдс"
@@ -11,8 +10,8 @@ chooseOptions:
         - "Брендан Эйх"
       correctAnswer: "Брендан Эйх"
       explanation: "[wiki](https://ru.wikipedia.org/wiki/JavaScript)"
-      complexity: "low"
-      theme: 1 
+      complexity: 1
+      theme: "Общие сведения"
    
     - questionTitle: "Какую строку выведет console.log?"
       questionDescription: 
@@ -27,8 +26,8 @@ chooseOptions:
         - "true, false"
       correctAnswer: "true, false"
       explanation: "Оператор равно (==) сначала приводит две переменные к числовому типу, а уже потом сраниваются их значения. Оператор строгого равенства (===) сначала проверяет типы переменных, и если они совпадают, то осуществляет сравнивание их значений, иначе возвращается false"
-      complexity: "low"
-      theme: 1
+      complexity: 1
+      theme: "Приведение типов"
 
     - questionTitle: "Какое значение будет выведено в консоли?"
       questionDescription: 
@@ -45,8 +44,8 @@ chooseOptions:
         - 0
       correctAnswer: 20
       explanation: "[Всплытие переменных](https://medium.com/@stasonmars/%D1%80%D0%B0%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC%D1%81%D1%8F-%D1%81-%D0%BF%D0%BE%D0%B4%D0%BD%D1%8F%D1%82%D0%B8%D0%B5%D0%BC-hoisting-%D0%B2-javascript-7d2d27bc51f1)"
-      complexity: "low"
-      theme: 1
+      complexity: 1
+      theme: Всплытие переменных
 
     - questionTitle: "Какое значение будет выведено в консоли?"
       questionDescription: 
@@ -62,8 +61,8 @@ chooseOptions:
         - "ошибка"
       correctAnswer: "0"
       explanation: "Оператор delete используется для удаления свойства из объекта. В данном случае x - это локальная переменная. Оператор delete не влияет на локальные переменные"
-      complexity: "low"
-      theme: 1
+      complexity: 1
+      theme: "Объекты в JS"
 
     - questionTitle: "Какое значение будет выведено в консоли?"
       questionDescription: 
@@ -80,8 +79,8 @@ chooseOptions:
         - "ошибка"
       correctAnswer: "1"
       explanation: "Оператор delete используется для удаления свойства из объекта. В данном случае x - это глобальная переменная. Оператор delete не влияет на локальные переменные"
-      complexity: "low"
-      theme: 1
+      complexity: 1
+      theme: "Объекты в JS"
 
     - questionTitle: "Какое значение будет выведено в консоли?"
       questionDescription: 
@@ -98,8 +97,8 @@ chooseOptions:
         - "ошибка"
       correctAnswer: "undefined"
       explanation: "Оператор delete используется для удаления свойства из объекта. В данном случае x - это объект, у которого есть свойство foo, и в самовызывающейся функции мы удаляем свойство foo у объекта x. После удаления мы пытаемся сослаться на удалённое свойство foo, что даёт результат undefined"
-      complexity: "low"
-      theme: 1
+      complexity: 1
+      theme: "Объекты в JS"
 
     - questionTitle: "Какое значение будет выведено в консоли?"
       questionDescription: 
@@ -116,8 +115,8 @@ chooseOptions:
         - "ошибка"
       correctAnswer: "xyz"
       explanation: "Объект emp1 наследует company как свойство протоипа. Оператор delet не удаляет свойства прототипа. Удалить такое свойство можно непосредственно из объекта Employee используя delete Employee.company или удалить из объекта emp1 используя свойство __proto__: delete emp1.__proto__.company"
-      complexity: "low"
-      theme: 1
+      complexity: "2"
+      theme: "Объекты в JS"
 
     - questionTitle: "Какое значение будет выведено в консоли?"
       questionDescription: 
@@ -131,8 +130,8 @@ chooseOptions:
         - "6"
       correctAnswer: "5"
       explanation: "Оператор delete удаляет элемент из массива, но при этом не влияет на его длинну"
-      complexity: "low"
-      theme: 1
+      complexity: 2
+      theme: "Массивы"
 
     - questionTitle: "Какое значение будет выведено в консоли?"
       questionDescription: 
@@ -155,8 +154,8 @@ chooseOptions:
       - "Number + String -> Concatenation"
       - "String + Boolean -> Concatenation"
       - "String + String -> Concatenation"
-      complexity: "low"
-      theme: 1
+      complexity: 1
+      theme: "Приведение типов"
 
     - questionTitle: "Какое значение будет выведено в консоли?"
       questionDescription: 
@@ -169,8 +168,8 @@ chooseOptions:
         - "NaN"
       correctAnswer: "'undefined'"
       explanation: "Почитать про порядок выполнения операторов и ассоциативность на [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)"
-      complexity: "low"
-      theme: 1
+      complexity: "2"
+      theme: "Операторы в JS"
   
     - questionTitle: "Какие методы массива вернут строку как результат?"
       questionDescription: 
@@ -199,51 +198,6 @@ chooseOptions:
       complexity: "1"
       theme: "Массивы"
       
-    - questionTitle: "Какие методы массива вернут boolean как результат?"
-      questionDescription: 
-      answers:   
-        - "every()"
-        - "some()"
-        - "indexOf()"
-        - "includes()"
-        - "toString()"
-      correctAnswer: 
-        - "every()"
-        - "some()"
-        - "includes()"
-      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
-      complexity: "1"
-      theme: "Массивы"
-      
-    - questionTitle: "При помощи какого метода можно создать новый массив?"
-      questionDescription: 
-      answers:   
-       - "of()"
-       - "reverse()"
-       - "sort()"
-       - "from()"
-       - "indexOf()"
-      correctAnswer: 
-        - "of()"
-        - "from()"
-      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
-      complexity: "2"
-      theme: "Массивы"
-
-    - questionTitle: "Какие методы массива возвращают новый массив?"
-      questionDescription: 
-      answers: 
-        - "some()"
-        - "map()"
-        - "filter()" 
-        - "forEach()"
-      correctAnswer: 
-        - "map()"
-        - "filter()"
-      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
-      complexity: "1"
-      theme: "Массивы"
-      
     - questionTitle: "Какой из методов массива удалит и вернет первый элемент массива?"
       questionDescription: 
       answers: 
@@ -254,22 +208,6 @@ chooseOptions:
       correctAnswer: "shift()"
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
       complexity: "1"
-      theme: "Массивы"
-      
-    - questionTitle: "Какие из методов или свойств массива вернут длину нового/существующего  массива?"
-      questionDescription: 
-      answers: 
-        - "pop"
-        - "shift"
-        - "length"
-        - "unshift" 
-        - "push"
-      correctAnswer: 
-        - "push"
-        - "unshift"
-        - "length"
-      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
-      complexity: "2"
       theme: "Массивы"
       
     - questionTitle: "Что вернет метод slice?"
@@ -287,36 +225,6 @@ chooseOptions:
       complexity: "1"
       theme: "Массивы"
       
-    - questionTitle: "Какие из методов вернут массив?"
-      questionDescription:
-      answers:
-      - "Object.valueOf()"
-      - Object.keys()
-      - Object.values()
-      - Object.entries()
-      correctAnswer: 
-      - Object.keys()
-      - Object.values()
-      - Object.entries()
-      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object"
-      complexity: "1"
-      theme: Объекты
-      
-    - questionTitle: "Какой из методов устанавливают дескрипторы свойств?"
-      questionDescription:
-      answers:
-      - Object.hasOwnProperty()
-      - Object.is()
-      - Object.getOwnPropertyDescriptor()
-      - Object.defineProperty()
-      - Object.defineProperties()
-      correctAnswer: 
-      - Object.defineProperty()
-      - Object.defineProperties()
-      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object"
-      complexity: "1"
-      theme: Объекты
-      
     - questionTitle: "Number в JS по умолчанию хранятся в:"
       questionDescription:
       answers:
@@ -329,22 +237,6 @@ chooseOptions:
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Data_structures
       complexity: "1"
       theme: Типы данных
-      
-    - questionTitle: "Выберите движки JS:"
-      questionDescription:
-      answers:
-      - V8
-      - JavaScripCore
-      - Chakra
-      - SpiderMonkey
-      correctAnswer: 
-      - V8
-      - JavaScripCore
-      - Chakra
-      - SpiderMonkey
-      explanation: https://habr.com/ru/company/otus/blog/446446/
-      complexity: "1"
-      theme: 
       
     - questionTitle: "Что выведет  в консоль?"
       questionDescription:
