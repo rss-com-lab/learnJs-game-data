@@ -170,21 +170,6 @@ chooseOptions:
       explanation: "Почитать про порядок выполнения операторов и ассоциативность на [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)"
       complexity: "2"
       theme: "Операторы в JS"
-  
-    - questionTitle: "Какие методы массива вернут строку как результат?"
-      questionDescription: 
-      answers: 
-        - "slice()"
-        - "toString()"
-        - "join()"
-        - "splice()"
-        - "concat()"
-      correctAnswer: 
-        - "toString()"
-        - "join()"
-      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
-      complexity: "2"
-      theme: "Массивы"
       
     - questionTitle: "Что вернет метод fill?"
       questionDescription: "[1,2.3,4,5,6].fil(0,2,3)" 
