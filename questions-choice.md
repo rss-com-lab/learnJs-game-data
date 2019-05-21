@@ -282,6 +282,46 @@ chooseOptions:
         - "3"
       explanation: http://speakingjs.com/es5/ch16.html
       complexity: "2"
-      theme: Scope  
+      theme: Scope
+      
+    - questionTitle: "Что выведет в консоль?"
+      questionDescription:
+        - "function () {"
+        - "try {"
+        - "throw new Error();"
+        - "} catch (x) {"
+        - "var x = 1, y = 2;"
+        - "console.log(x);"
+        - "}"
+        - "console.log(x);"
+        - "console.log(y);"
+        - "})();"
+      answers:
+        - "1, undefined, 2"
+        - "1, 1, 2"
+        - "1, undefined, undefined"
+      correctAnswer:
+        - "1, undefined, 2"
+      explanation: https://dev.opera.com/articles/efficient-javascript/?page=2#trycatch
+      complexity: "3"
+      theme: Scope
+      
+    - questionTitle: "Что выведет  в консоль?"
+      questionDescription:
+        - "(function(x) {"
+        - "return (function(y) {"
+        - "console.log(x);"
+        - "})(2)"
+        - "})(1);"
+      answers:
+        - "undefined"
+        - "2"
+        - "1"
+        - "ReferenceError"
+      correctAnswer:
+        - "1"
+      explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures
+      complexity: "1"
+      theme: Замыкание
       
 ---
