@@ -170,21 +170,6 @@ chooseOptions:
       explanation: "Почитать про порядок выполнения операторов и ассоциативность на [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)"
       complexity: "2"
       theme: "Операторы в JS"
-  
-    - questionTitle: "Какие методы массива вернут строку как результат?"
-      questionDescription: 
-      answers: 
-        - "slice()"
-        - "toString()"
-        - "join()"
-        - "splice()"
-        - "concat()"
-      correctAnswer: 
-        - "toString()"
-        - "join()"
-      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
-      complexity: "2"
-      theme: "Массивы"
       
     - questionTitle: "Что вернет метод fill?"
       questionDescription: "[1,2.3,4,5,6].fil(0,2,3)" 
@@ -240,105 +225,86 @@ chooseOptions:
       
     - questionTitle: "Что выведет  в консоль?"
       questionDescription:
-        -"var scope = "global";"
-        -"function outer() {"
-        -"function scope() {"
-        -"console.log(scope);"
-        -"}"
-        -"scope();"
-        -"}"
-        -"outer();"
+        - "var scope = \"global\";"
+        - "function outer() {"
+        - "function scope() {"
+        - "console.log(scope);"
+        - "}"
+        - "scope();"
+        - "}"
+        - "outer();"
       answers:
-        -"global"
-        -"object window"
-        -"ReferenceError"
-        -"тело функции scope"
+        - "global"
+        - "object window"
+        - "ReferenceError"
+        - "тело функции scope"
       correctAnswer:
-        -"тело функции scope"
+        - "тело функции scope"
       explanation: http://speakingjs.com/es5/ch16.html
       complexity: "2"
       theme: Scope
       
     - questionTitle: "Что выведет  в консоль?"
       questionDescription:
-          -"var b = 1;"
-          -"function outer() {"
-          -"var b = 2"
-          -"function inner() {"
-          -"b++;"
-          -"var b = 3;"
-          -"console.log(b);"
-          -"}"
-          -"inner();"
-          -"}"
-          -"outer();"
+        - "var b = 1;"
+        - "function outer() {"
+        - "var b = 2"
+        - "function inner() {"
+        - "b++;"
+        - "var b = 3;"
+        - "console.log(b);"
+        - "}"
+        - "inner();"
+        - "}"
+        - "outer();"
       answers:
-        -"undefined"
-        -"NaN"
-        -"2"
-        -"3"
-        -"4"
+        - "undefined"
+        - "NaN"
+        - "2"
+        - "3"
+        - "4"
       correctAnswer:
-        -"3"
+        - "3"
       explanation: http://speakingjs.com/es5/ch16.html
       complexity: "2"
       theme: Scope
       
-    - questionTitle: "Что выведет  в консоль?"
+    - questionTitle: "Что выведет в консоль?"
       questionDescription:
-        -"var x = 21;"
-        -"var girl = function () {"
-        -"console.log(x);"
-        -"var x = 20;
-        -"};"
-        -"girl ();"
+        - "function () {"
+        - "try {"
+        - "throw new Error();"
+        - "} catch (x) {"
+        - "var x = 1, y = 2;"
+        - "console.log(x);"
+        - "}"
+        - "console.log(x);"
+        - "console.log(y);"
+        - "})();"
       answers:
-        -"undefined"
-        -"20"
-        -"21"
-        -"ReferenceError"
+        - "1, undefined, 2"
+        - "1, 1, 2"
+        - "1, undefined, undefined"
       correctAnswer:
-        -"undefined"
-      explanation: http://speakingjs.com/es5/ch16.html
-      complexity: "1"
-      theme: Scope
-      
-    - questionTitle: "Что выведет  в консоль?"
-      questionDescription:
-        -"function () {"
-        -"try {"
-        "throw new Error();"
-        -"} catch (x) {"
-        -"var x = 1, y = 2;"
-        -"console.log(x);"
-        -"}"
-        -"console.log(x);"
-        -"console.log(y);"
-        -"})();"
-      answers:
-        -"1, undefined, 2"
-        -"1, 1, 2"
-        -"1, undefined, undefined"
-      correctAnswer:
-        -"1, undefined, 2"
+        - "1, undefined, 2"
       explanation: https://dev.opera.com/articles/efficient-javascript/?page=2#trycatch
       complexity: "3"
       theme: Scope
       
     - questionTitle: "Что выведет  в консоль?"
       questionDescription:
-        -"(function(x) {"
-        -"return (function(y) {"
-        -"console.log(x);"
-        -"})(2)"
-        -"})(1);"
+        - "(function(x) {"
+        - "return (function(y) {"
+        - "console.log(x);"
+        - "})(2)"
+        - "})(1);"
       answers:
-        -"undefined"
-        -"2"
-        -"1"
-        -"ReferenceError"
+        - "undefined"
+        - "2"
+        - "1"
+        - "ReferenceError"
       correctAnswer:
-        -"1"
+        - "1"
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures
       complexity: "1"
       theme: Замыкание
