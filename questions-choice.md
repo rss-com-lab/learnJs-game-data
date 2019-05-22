@@ -2,7 +2,7 @@
 chooseOptions:
   data: 
     - questionTitle: "Кто является основным создателем языка Java Script?"
-      questionDescription:
+      questionDescription: []
       answers: 
         - "Бил Гейтс"
         - "Линус Торвальдс"
@@ -172,7 +172,8 @@ chooseOptions:
       theme: "Операторы в JS"
       
     - questionTitle: "Что вернет метод fill?"
-      questionDescription: "[1,2.3,4,5,6].fil(0,2,3)" 
+      questionDescription:
+        - "[1,2.3,4,5,6].fil(0,2,3)" 
       answers: 
         - "[0,2,3,4,5,6]"
         - "[1,2,0,4,5,6]"
@@ -184,7 +185,7 @@ chooseOptions:
       theme: "Массивы"
       
     - questionTitle: "Какой из методов массива удалит и вернет первый элемент массива?"
-      questionDescription: 
+      questionDescription: []
       answers: 
         - "pop()"
         - "shift()"
@@ -196,7 +197,8 @@ chooseOptions:
       theme: "Массивы"
       
     - questionTitle: "Что вернет метод slice?"
-      questionDescription: "[1, 2, 3, 4, 5, 6].slice(2,3)"
+      questionDescription:
+        - "[1, 2, 3, 4, 5, 6].slice(2,3)"
       answers: 
         - "3"
         - ['2']
@@ -211,7 +213,7 @@ chooseOptions:
       theme: "Массивы"
       
     - questionTitle: "Number в JS по умолчанию хранятся в:"
-      questionDescription:
+      questionDescription: []
       answers:
       - 64 бита
       - 32 бита
