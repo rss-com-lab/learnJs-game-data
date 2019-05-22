@@ -251,7 +251,7 @@
         "data":[
           {
                     "questionTitle": "Кто является основным создателем языка Java Script?",
-                    "questionDescription": null,
+                    "questionDescription": [],
                     "answers": [
                               "Бил Гейтс",
                               "Линус Торвальдс",
@@ -451,7 +451,9 @@
           },
           {
                     "questionTitle": "Что вернет метод fill?",
-                    "questionDescription": "[1,2.3,4,5,6].fil(0,2,3)",
+                    "questionDescription": [
+                              "[1,2.3,4,5,6].fil(0,2,3)"
+                    ],
                     "answers": [
                               "[0,2,3,4,5,6]",
                               "[1,2,0,4,5,6]",
@@ -465,7 +467,7 @@
           },
           {
                     "questionTitle": "Какой из методов массива удалит и вернет первый элемент массива?",
-                    "questionDescription": null,
+                    "questionDescription": [],
                     "answers": [
                               "pop()",
                               "shift()",
@@ -479,7 +481,9 @@
           },
           {
                     "questionTitle": "Что вернет метод slice?",
-                    "questionDescription": "[1, 2, 3, 4, 5, 6].slice(2,3)",
+                    "questionDescription": [
+                              "[1, 2, 3, 4, 5, 6].slice(2,3)"
+                    ],
                     "answers": [
                               "3",
                               [
@@ -511,7 +515,7 @@
           },
           {
                     "questionTitle": "Number в JS по умолчанию хранятся в:",
-                    "questionDescription": null,
+                    "questionDescription": [],
                     "answers": [
                               "64 бита",
                               "32 бита",
