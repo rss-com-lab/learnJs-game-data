@@ -1,9 +1,9 @@
 ---
-chooseOptions:
+closeMultiple:
   data: 
       
     - questionTitle: "Какие методы массива вернут строку как результат?"
-      questionDescription: 
+      questionDescription: []
       answers: 
         - "slice()"
         - "toString()"
@@ -18,7 +18,7 @@ chooseOptions:
       theme: "Массивы"
       
     - questionTitle: "Какие методы массива вернут boolean как результат?"
-      questionDescription: 
+      questionDescription: []
       answers:   
         - "every()"
         - "some()"
@@ -34,7 +34,7 @@ chooseOptions:
       theme: "Массивы"
       
     - questionTitle: "При помощи какого метода можно создать новый массив?"
-      questionDescription: 
+      questionDescription: []
       answers:   
        - "of()"
        - "reverse()"
@@ -49,7 +49,7 @@ chooseOptions:
       theme: "Массивы"
 
     - questionTitle: "Какие методы массива возвращают новый массив?"
-      questionDescription: 
+      questionDescription: []
       answers: 
         - "some()"
         - "map()"
@@ -63,7 +63,7 @@ chooseOptions:
       theme: "Массивы"
       
     - questionTitle: "Какие из методов или свойств массива вернут длину нового/существующего  массива?"
-      questionDescription: 
+      questionDescription: []
       answers: 
         - "pop"
         - "shift"
@@ -79,7 +79,7 @@ chooseOptions:
       theme: "Массивы"
       
     - questionTitle: "Какие из методов вернут массив?"
-      questionDescription:
+      questionDescription: []
       answers:
       - "Object.valueOf()"
       - Object.keys()
@@ -94,7 +94,7 @@ chooseOptions:
       theme: Объекты
       
     - questionTitle: "Какой из методов устанавливают дескрипторы свойств?"
-      questionDescription:
+      questionDescription: []
       answers:
       - Object.hasOwnProperty()
       - Object.is()
@@ -109,7 +109,7 @@ chooseOptions:
       theme: Объекты
       
     - questionTitle: "Выберите движки JS:"
-      questionDescription:
+      questionDescription: []
       answers:
       - V8
       - JavaScripCore
