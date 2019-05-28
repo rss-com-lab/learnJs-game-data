@@ -311,4 +311,22 @@ chooseOptions:
       complexity: "1"
       theme: Замыкание
       
+    - questionTitle: "Какой будет результат выполнения?"
+      questionDescription:
+        - "(function() {"
+        - "return typeof arguments;"
+        - "})();"
+      answers:
+        - "undefined"
+        - "object"
+        - "array"
+        - "arguments"
+      correctAnswer:
+        - "object"
+      explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Functions/arguments
+      complexity: "2"
+      theme: Функции
+      
+   
+      
 ---
