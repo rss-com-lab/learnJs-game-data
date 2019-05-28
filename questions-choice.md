@@ -327,6 +327,23 @@ chooseOptions:
       complexity: "2"
       theme: Функции
       
+    - questionTitle: "Какой будет результат выполнения?"
+      questionDescription:
+        - "var f = function g() {"
+        - "return 23;"
+        - "};"
+        - "typeof g();"
+      answers:
+        - "undefined"
+        - "function"
+        - "number"
+        - "ReferenceError"
+      correctAnswer:
+        - "ReferenceError"
+      explanation: http://qaru.site/questions/39198/why-use-named-function-expressions
+      complexity: "2"
+      theme: Функции
+      
    
       
 ---
