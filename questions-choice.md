@@ -344,6 +344,39 @@ chooseOptions:
       complexity: "2"
       theme: Функции
       
+    - questionTitle: "Какой будет результат выполнения?"
+      questionDescription:
+        - "var f = function g() {"
+        - "return 23;"
+        - "};"
+        - "concole.log(typeof g);"
+      answers:
+        - "undefined"
+        - "function"
+        - "number"
+        - "ReferenceError"
+      correctAnswer:
+        - "undefined"
+      explanation: http://qaru.site/questions/39198/why-use-named-function-expressions
+      complexity: "2"
+      theme: Функции
+      
+    - questionTitle: "Какой будет результат выполнения?"
+      questionDescription:
+        - "(function(a) {"
+        - "arguments[0] = 10;"
+        - "return a;"
+        - "})(5);"
+      answers:
+        - 5
+        - 10
+        - "undefined"
+        - "ReferenceError"
+      correctAnswer:
+        - 10
+      explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Functions/arguments
+      complexity: "2"
+      theme: Функции
    
       
 ---
