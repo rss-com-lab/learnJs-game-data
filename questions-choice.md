@@ -9,7 +9,7 @@ chooseOptions:
         - "Джеймс Гослинг" 
         - "Брендан Эйх"
       correctAnswer: "Брендан Эйх"
-      explanation: "[wiki](https://ru.wikipedia.org/wiki/JavaScript)"
+      explanation: "https://ru.wikipedia.org/wiki/JavaScript"
       complexity: 1
       theme: "Общие сведения"
    
@@ -25,7 +25,7 @@ chooseOptions:
         - "false, true" 
         - "true, false"
       correctAnswer: "true, false"
-      explanation: "Оператор равно (==) сначала приводит две переменные к числовому типу, а уже потом сраниваются их значения. Оператор строгого равенства (===) сначала проверяет типы переменных, и если они совпадают, то осуществляет сравнивание их значений, иначе возвращается false"
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Equality_comparisons_and_sameness"
       complexity: 1
       theme: "Приведение типов"
 
@@ -43,7 +43,7 @@ chooseOptions:
         - 20 
         - 0
       correctAnswer: 20
-      explanation: "[Всплытие переменных](https://medium.com/@stasonmars/%D1%80%D0%B0%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC%D1%81%D1%8F-%D1%81-%D0%BF%D0%BE%D0%B4%D0%BD%D1%8F%D1%82%D0%B8%D0%B5%D0%BC-hoisting-%D0%B2-javascript-7d2d27bc51f1)"
+      explanation: "https://medium.com/@stasonmars/%D1%80%D0%B0%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC%D1%81%D1%8F-%D1%81-%D0%BF%D0%BE%D0%B4%D0%BD%D1%8F%D1%82%D0%B8%D0%B5%D0%BC-hoisting-%D0%B2-javascript-7d2d27bc51f1"
       complexity: 1
       theme: Всплытие переменных
 
@@ -60,9 +60,9 @@ chooseOptions:
         - "{}" 
         - "ошибка"
       correctAnswer: "0"
-      explanation: "Оператор delete используется для удаления свойства из объекта. В данном случае x - это локальная переменная. Оператор delete не влияет на локальные переменные"
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/delete"
       complexity: 1
-      theme: "Объекты в JS"
+      theme: "Объекты"
 
     - questionTitle: "Какое значение будет выведено в консоли?"
       questionDescription: 
@@ -78,9 +78,9 @@ chooseOptions:
         - "1" 
         - "ошибка"
       correctAnswer: "1"
-      explanation: "Оператор delete используется для удаления свойства из объекта. В данном случае x - это глобальная переменная. Оператор delete не влияет на локальные переменные"
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/delete"
       complexity: 1
-      theme: "Объекты в JS"
+      theme: "Объекты"
 
     - questionTitle: "Какое значение будет выведено в консоли?"
       questionDescription: 
@@ -96,9 +96,9 @@ chooseOptions:
         - "{}" 
         - "ошибка"
       correctAnswer: "undefined"
-      explanation: "Оператор delete используется для удаления свойства из объекта. В данном случае x - это объект, у которого есть свойство foo, и в самовызывающейся функции мы удаляем свойство foo у объекта x. После удаления мы пытаемся сослаться на удалённое свойство foo, что даёт результат undefined"
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/delete"
       complexity: 1
-      theme: "Объекты в JS"
+      theme: "Объекты"
 
     - questionTitle: "Какое значение будет выведено в консоли?"
       questionDescription: 
@@ -114,9 +114,9 @@ chooseOptions:
         - "null" 
         - "ошибка"
       correctAnswer: "xyz"
-      explanation: "Объект emp1 наследует company как свойство протоипа. Оператор delet не удаляет свойства прототипа. Удалить такое свойство можно непосредственно из объекта Employee используя delete Employee.company или удалить из объекта emp1 используя свойство __proto__: delete emp1.__proto__.company"
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/delete"
       complexity: "2"
-      theme: "Объекты в JS"
+      theme: "Объекты"
 
     - questionTitle: "Какое значение будет выведено в консоли?"
       questionDescription: 
@@ -129,7 +129,7 @@ chooseOptions:
         - "undefined" 
         - "6"
       correctAnswer: "5"
-      explanation: "Оператор delete удаляет элемент из массива, но при этом не влияет на его длинну"
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/delete"
       complexity: 2
       theme: "Массивы"
 
