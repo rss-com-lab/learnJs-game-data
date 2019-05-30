@@ -124,4 +124,20 @@ closeMultiple:
       complexity: "2"
       theme: 
       
+    - questionTitle: "Какие методы массива изменяют исходный массив?"
+      questionDescription: []
+      answers: 
+        - "pop"
+        - "slice"
+        - "splice"
+        - "reverse" 
+        - "some"
+      correctAnswer: 
+        - "pop"
+        - "splice"
+        - "reverse"
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
+      complexity: "3"
+      theme: "Массивы"
+      
 ---
