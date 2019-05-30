@@ -375,7 +375,28 @@ chooseOptions:
       correctAnswer:
         - 10
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Functions/arguments
-      complexity: "2"
+      complexity: "3"
+      theme: Функции
+      
+    - questionTitle: "Что выведет в консоль??"
+      questionDescription:
+        - "var obj = {"
+        - "a: 1"
+        - "};"
+        - "(function(obj) {"
+        - "obj = {"
+        - "a: 2"
+        - "};"
+        - "})(obj);"
+      answers:
+        - 1
+        - 2
+        - "undefined"
+        - "ReferenceError"
+      correctAnswer:
+        - 1
+      explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Functions
+      complexity: "3"
       theme: Функции
    
       
