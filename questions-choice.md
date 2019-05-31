@@ -371,7 +371,7 @@ chooseOptions:
       complexity: "3"
       theme: Функции
       
-    - questionTitle: "Что выведет в консоль??"
+    - questionTitle: "Что выведет в консоль?"
       questionDescription:
         - "var obj = {"
         - "a: 1"
@@ -391,6 +391,39 @@ chooseOptions:
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Functions
       complexity: "3"
       theme: Функции
+      
+    - questionTitle: "С помощью какого метода объекта события можно отменить стандартное поведение браузера?"
+      questionDescription: []
+      answers:
+        - "cancelEvents()"
+        - "preventEvent()"
+        - "preventDefault()"
+        - "stopPropagation()"
+      correctAnswer:
+        - preventDefault()
+      explanation: https://learn.javascript.ru/default-browser-action
+      complexity: "1"
+      theme: События
+      
+    - questionTitle: "Какой будет результат выполнения?"
+      questionDescription:
+        - "function Car(color) {"
+        - "this.color = color;"
+        - "}"
+        - "var lada = new Car(\"Black\");"
+        - "Car.prototype.currentGear = 1;"
+        - "console.log(++lada.currentGear);"
+        - "console.log(Car.prototype.currentGear);" 
+      answers:
+        - "1, 2"
+        - "2, 1"
+        - "1, 1"
+        - "2, 2"
+      correctAnswer:
+        - "2, 1"
+      explanation: https://hackernoon.com/prototypes-in-javascript-5bba2990e04b
+      complexity: "2"
+      theme: Объекты
    
       
 ---
