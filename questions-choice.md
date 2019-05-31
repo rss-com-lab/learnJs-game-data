@@ -146,14 +146,7 @@ chooseOptions:
         - "'1', 'truexyz', '11', 1" 
         - "1, 'truexyz', 2, 1"
       correctAnswer: "1, 'truexyz', 2, 1"
-      explanation: 
-      - "Вот основные правила приведения типов с оператором сложения:"
-      - "Number + Number -> Addition"
-      - "Boolean + Number -> Addition"
-      - "Boolean + Boolean -> Addition"
-      - "Number + String -> Concatenation"
-      - "String + Boolean -> Concatenation"
-      - "String + String -> Concatenation"
+      explanation: "http://javascript.info/type-conversions"
       complexity: 1
       theme: "Приведение типов"
 
@@ -167,9 +160,9 @@ chooseOptions:
         - "undefined" 
         - "NaN"
       correctAnswer: "'undefined'"
-      explanation: "Почитать про порядок выполнения операторов и ассоциативность на [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)"
-      complexity: "2"
-      theme: "Операторы в JS"
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence"
+      complexity: "3"
+      theme: "Операторы"
       
     - questionTitle: "Что вернет метод fill?"
       questionDescription:
