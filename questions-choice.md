@@ -424,6 +424,25 @@ chooseOptions:
       explanation: https://hackernoon.com/prototypes-in-javascript-5bba2990e04b
       complexity: "2"
       theme: Объекты
+      
+    - questionTitle: "В каком порядке выводятся значения в консоль?"
+      questionDescription:
+        - "(function() {"
+        - "console.log(1);"
+        - "setTimeout(function(){console.log(2)}, 1000);"
+        - "setTimeout(function(){console.log(3)}, 0);"
+        - "console.log(4);"
+        - "})();"
+      answers:
+        - "1, 2, 3, 4"
+        - "1, 3, 2, 4"
+        - "1, 4, 2, 3"
+        - "1, 4, 3, 2"
+      correctAnswer:
+        - "1, 4, 3, 2"
+      explanation: https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4
+      complexity: "3"
+      theme: События
    
       
 ---
