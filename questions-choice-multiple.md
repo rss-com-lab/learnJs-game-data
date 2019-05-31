@@ -30,7 +30,7 @@ closeMultiple:
         - "some()"
         - "includes()"
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
-      complexity: "1"
+      complexity: "2"
       theme: "Массивы"
       
     - questionTitle: "При помощи какого метода можно создать новый массив?"
@@ -59,7 +59,7 @@ closeMultiple:
         - "map()"
         - "filter()"
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
-      complexity: "1"
+      complexity: "2"
       theme: "Массивы"
       
     - questionTitle: "Какие из методов или свойств массива вернут длину нового/существующего  массива?"
@@ -90,7 +90,7 @@ closeMultiple:
       - Object.values()
       - Object.entries()
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object"
-      complexity: "1"
+      complexity: "2"
       theme: Объекты
       
     - questionTitle: "Какой из методов устанавливают дескрипторы свойств?"
@@ -105,7 +105,7 @@ closeMultiple:
       - Object.defineProperty()
       - Object.defineProperties()
       explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object"
-      complexity: "1"
+      complexity: "2"
       theme: Объекты
       
     - questionTitle: "Выберите движки JS:"
@@ -121,7 +121,23 @@ closeMultiple:
       - Chakra
       - SpiderMonkey
       explanation: https://habr.com/ru/company/otus/blog/446446/
-      complexity: "1"
+      complexity: "2"
       theme: 
+      
+    - questionTitle: "Какие методы массива изменяют исходный массив?"
+      questionDescription: []
+      answers: 
+        - "pop"
+        - "slice"
+        - "splice"
+        - "reverse" 
+        - "some"
+      correctAnswer: 
+        - "pop"
+        - "splice"
+        - "reverse"
+      explanation: "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array"
+      complexity: "3"
+      theme: "Массивы"
       
 ---

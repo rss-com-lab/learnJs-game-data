@@ -106,27 +106,6 @@ typeAnswer:
       complexity: "2"
       theme: Объекты в JS
       
-    - questionTitle: 
-      questionDescription: []
-      correctAnswer: ""
-      explanation: 
-      complexity: "2"
-      theme: 
-      
-    - questionTitle: 
-      questionDescription: []
-      correctAnswer: ""
-      explanation: 
-      complexity: "2"
-      theme: 
-      
-    - questionTitle: 
-      questionDescription: []
-      correctAnswer: ""
-      explanation: 
-      complexity: "2"
-      theme: 
-     
     - questionTitle: Что вернёт следующий код?
       questionDescription:
         - "const arr = [10, 12, 15, 21];"
@@ -140,25 +119,5 @@ typeAnswer:
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures
       complexity: "3"
       theme: Closures
-      
-    - questionTitle: 
-      questionDescription: []
-      correctAnswer: ""
-      explanation: 
-      complexity: "3"
-      theme: 
-      
-    - questionTitle: 
-      questionDescription: []
-      correctAnswer: ""
-      explanation: 
-      complexity: "3"
-      theme: 
-      
-    - questionTitle: 
-      questionDescription: []
-      correctAnswer: ""
-      explanation: 
-      complexity: "3"
-      theme:  
+     
 ---
