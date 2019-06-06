@@ -144,7 +144,7 @@ closeMultiple:
       questionDescription: []
       answers: 
         - "null == undefined"
-        - "'true' == true"
+        - "\"true\" == true"
         - "[1,2,3] == [1,2,3]"
         - "null == 0" 
         - "NaN == NaN"
