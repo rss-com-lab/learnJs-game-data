@@ -19,14 +19,14 @@ typeAnswer:
       questionDescription: [null + "8" / "4"]
       correctAnswer: "2"
       explanation: http://javascript.info/type-conversions
-      complexity: "1"
+      complexity: "2"
       theme: Приведение типов
 
     - questionTitle: Какой будет результат?
       questionDescription: [(null + "2") * "3" + 5]
       correctAnswer: "\"NaN\""
       explanation: http://javascript.info/type-conversions
-      complexity: "1"
+      complexity: "2"
       theme: Приведение типов
 
     - questionTitle: Какой будет результат?
@@ -119,5 +119,27 @@ typeAnswer:
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures
       complexity: "3"
       theme: Closures
+      
+    - questionTitle: Что выведет в консоль?
+      questionDescription: 
+        - "var z = 1, y = z = typeof y;"
+        - "console.log(y);"
+      correctAnswer: "undefined"
+      explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+      complexity: "2"
+      theme: Типы данных
+      
+    - questionTitle: Каким будет вывод следующего кода?
+      questionDescription:
+        - "const CAR = {"
+        - "color: \"blue\","
+        - "price: 500"
+        - "}"
+        - "CAR.price = 1000;"
+        - "console.log(CAR);"
+      correctAnswer: 1000
+      explanation: https://dev.to/ddhogan/scope-and-hoisting-of-variables-functions-and-this-in-javascript-5176
+      complexity: "1"
+      theme: Всплытие
      
 ---
