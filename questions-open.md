@@ -141,5 +141,86 @@ typeAnswer:
       explanation: https://dev.to/ddhogan/scope-and-hoisting-of-variables-functions-and-this-in-javascript-5176
       complexity: "1"
       theme: Всплытие
+      
+    - questionTitle: Что выведет в консоль?
+      questionDescription:
+        - "num = 6;"
+        - "console.log(num);"
+        - "var num;"
+      correctAnswer: 6
+      explanation: https://dev.to/ddhogan/scope-and-hoisting-of-variables-functions-and-this-in-javascript-5176
+      complexity: "1"
+      theme: Всплытие
+      
+    - questionTitle: Что выведет в консоль?
+      questionDescription: 
+        - "console.log(num);"
+        - "var num = 6;"
+      correctAnswer: undefined
+      explanation: https://dev.to/ddhogan/scope-and-hoisting-of-variables-functions-and-this-in-javascript-5176
+      complexity: "1"
+      theme: Всплытие
+      
+    - questionTitle: Каким будет вывод следующего кода?
+      questionDescription: 
+        - "new String('Hello') === 'Hello'"
+      correctAnswer: false
+      explanation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+      complexity: "1"
+      theme: Типы данных
+      
+    - questionTitle: Каким будет вывод следующего кода?
+      questionDescription: 
+        - "\"string\" instanceof String;"
+      correctAnswer: false
+      explanation: http://qaru.site/questions/2111/why-does-instanceof-return-false-for-some-literals
+      complexity: "2"
+      theme: Типы данных
+      
+    - questionTitle: Каким будет вывод следующего кода?
+      questionDescription:
+        - "var x = [typeof x, typeof y][1];"
+        - "typeof typeof x;"
+      correctAnswer: "string"
+      explanation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+      complexity: "2"
+      theme: Типы данных
+      
+    - questionTitle: Каким будет вывод следующего кода?
+      questionDescription:
+        - "(function f() {"
+        - "function f() { return 1; }"
+        - "return f();"
+        - "function f() { return 2; }"
+        - "})();"
+      correctAnswer: 2
+      explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/function
+      complexity: "2"
+      theme: Функции
+      
+    - questionTitle: Что выведет в консоль?
+      questionDescription:
+        - "var a = 1;"
+        - "var b = function() {"
+        - "a = 10;"
+        - "return a;"
+        - "function a() {"
+        - "a = 5;"
+        - "}"
+        - "};"
+        - "console.log(b(), a);"
+      correctAnswer: [10, 1]
+      explanation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
+      complexity: "2"
+      theme: Всплытие
+      
+    - questionTitle: Каким будет вывод следующего кода?
+      questionDescription:
+        - "alert([] + 1 + 2);"
+      correctAnswer: "12"
+      explanation: https://medium.com/@sergeybulavyk/%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%82%D0%B8%D0%BF%D0%BE%D0%B2-%D0%B2-javascript-35a15ddfc333
+      complexity: "3"
+      theme: Типы данных
+      
      
 ---
