@@ -104,7 +104,7 @@ typeAnswer:
       correctAnswer: "assign()"
       explanation: https://medium.com/@Farzad_YZ/3-ways-to-clone-objects-in-javascript-f752d148054d
       complexity: "2"
-      theme: Объекты в JS
+      theme: Объекты
       
     - questionTitle: Что вернёт следующий код?
       questionDescription:
