@@ -443,6 +443,52 @@ chooseOptions:
       explanation: https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4
       complexity: "3"
       theme: События
+      
+    - questionTitle: "В чем особенность событий focus/blur?"
+      questionDescription: []
+      answers:
+        - "у них нет объекта события"
+        - "они не всплывают"
+        - "можно назначить только один обработчик событий"
+        - "нельзя отменить действия браузера по умолчанию"
+      correctAnswer:
+        - "они не всплывают"
+      explanation: https://learn.javascript.ru/focus-blur
+      complexity: "2"
+      theme: События
+      
+    - questionTitle: "В какой момент времени определяется значение this для метода?"
+      questionDescription: []
+      answers:
+        - "при создании объекта"
+        - "при каждом вызове метода"
+        - "в момент первого вызова метода"
+        - "при создании метода"
+      correctAnswer:
+        - "при каждом вызове метода"
+      explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/this
+      complexity: "2"
+      theme: Объекты
+      
+    - questionTitle: "В каком порядке выведутся значения в консоль?"
+      questionDescription:
+        - "(function() {"
+        - "console.log(1);"
+        - "setTimeout(() => console.log(2), 1000);"
+        - "setTimeout(() => console.log(3), 0);"
+        - "Promise.resolve(true).then(() => console.log(4));"
+        - "console.log(5);"
+        - "})();"
+      answers:
+        - "1, 2, 3, 4, 5"
+        - "1, 5, 3, 2, 4"
+        - "1, 3, 5, 2, 4"
+        - "1, 5, 4, 3, 2"
+      correctAnswer:
+        - "1, 5, 4, 3, 2"
+      explanation: https://blog.bitsrc.io/understanding-asynchronous-javascript-the-event-loop-74cd408419ff
+      complexity: "3"
+      theme: События
    
       
 ---
