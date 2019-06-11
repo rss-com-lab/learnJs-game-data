@@ -489,6 +489,129 @@ chooseOptions:
       explanation: https://blog.bitsrc.io/understanding-asynchronous-javascript-the-event-loop-74cd408419ff
       complexity: "3"
       theme: События
+      
+    - questionTitle: "В каком порядке выведутся значения в консоль?"
+      questionDescription: 
+       - "let promise = new Promise((resolve, reject) => {"
+       - "console.log(1);"
+       - "resolve(2);"
+       - "});"
+       - "promise.then(res => console.log(res));"
+       - "console.log(3);"
+      answers:
+        - "1, 2, 3"
+        - "3, 1, 2"
+        - "1, 3, 2"
+        - "3, 2, 1"
+      correctAnswer:
+        - "1, 3, 2"
+      explanation: https://levelup.gitconnected.com/javascript-and-asynchronous-magic-bee537edc2da
+      complexity: "3"
+      theme: События
+      
+    - questionTitle: "Какой будет результат выполнения?"
+      questionDescription: 
+       - "function test() {"
+       - "console.log(a);"
+       - "console.log(foo());"
+       - "var a = 1;"
+       - "function foo() {"
+       - "return 2;"
+       - "}"
+       - "}"
+       - "test();"
+      answers:
+        - "undefined, undefined"
+        - "undefined, 2"
+        - "1, 2"
+        - "undefined, function foo()"
+      correctAnswer:
+        - "undefined, function foo()"
+      explanation: https://dev.to/ddhogan/scope-and-hoisting-of-variables-functions-and-this-in-javascript-5176
+      complexity: "2"
+      theme: Всплытие
+      
+    - questionTitle: "Какой будет результат выполнения?"
+      questionDescription:
+        - "function doSomething() {"
+        - "console.log(bar);"
+        - "console.log(foo);"
+        - "var bar = 1;"
+        - "let foo = 2;"
+        - "}"
+      answers:
+        - "undefined, undefined"
+        - "undefined,  ReferenceError"
+        - "1, undefined"
+        - "1, 2"
+      correctAnswer:
+        - "undefined,  ReferenceError"
+      explanation: https://dev.to/ddhogan/scope-and-hoisting-of-variables-functions-and-this-in-javascript-5176
+      complexity: "2"
+      theme: Всплытие
+      
+    - questionTitle: "Какой будет результат фызова функции?"
+      questionDescription:
+        - "function varTest() {"
+        - "var x = 1;"
+        - "if (true) {"
+        - "var x = 2;"
+        - "console.log(x);"
+        - "}"
+        - "console.log(x);"
+        - "}"
+      answers:
+        - "2, undefined"
+        - "2, 1"
+        - "2, 2"
+        - "SyntaxError"
+      correctAnswer:
+        - "2, 2"
+      explanation: https://dev.to/ddhogan/scope-and-hoisting-of-variables-functions-and-this-in-javascript-5176
+      complexity: "2"
+      theme: Всплытие
+      
+    - questionTitle: "Какой будет результат фызова функции?"
+      questionDescription:
+        - "function letTest() {"
+        - "let x = 1;"
+        - "if (true) {"
+        - "let x = 2;"
+        - "console.log(x);"
+        - "}"
+        - "console.log(x);"
+        - "}"
+      answers:
+        - "2, undefined"
+        - "2, 1"
+        - "2, 2"
+        - "SyntaxError"
+      correctAnswer:
+        - "2, 1"
+      explanation: https://dev.to/ddhogan/scope-and-hoisting-of-variables-functions-and-this-in-javascript-5176
+      complexity: "2"
+      theme: Всплытие
+      
+    - questionTitle: "Какой будет результат фызова функции?"
+      questionDescription:
+        - "function test() {"
+        - "let x = 1;"
+        - "if (true) {"
+        - "var x = 2;"
+        - "console.log(x);"
+        - "}"
+        - "console.log(x);"
+        - "}"
+      answers:
+        - "2, undefined"
+        - "2, 1"
+        - "2, 2"
+        - "SyntaxError"
+      correctAnswer:
+        - "SyntaxError"
+      explanation: https://dev.to/ddhogan/scope-and-hoisting-of-variables-functions-and-this-in-javascript-5176
+      complexity: "2"
+      theme: Всплытие
    
       
 ---
