@@ -222,5 +222,20 @@ typeAnswer:
       complexity: "3"
       theme: Типы данных
       
+    - questionTitle: Что выведет в консоль?
+      questionDescription:
+        - "var module = {"
+        - "x: 42,"
+        - "getX: function() {"
+        - "return this.x;"
+        - "}"
+        - "}"
+        - "var y = module.getX;"
+        - "console.log(y());"
+      correctAnswer: undefined
+      explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Function/bind
+      complexity: "2"
+      theme: Объекты
+      
      
 ---
