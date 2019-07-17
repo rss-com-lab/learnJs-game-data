@@ -137,7 +137,7 @@ typeAnswer:
         - "}"
         - "CAR.price = 1000;"
         - "console.log(CAR);"
-      correctAnswer: 1000
+      correctAnswer: "1000"
       explanation: https://dev.to/ddhogan/scope-and-hoisting-of-variables-functions-and-this-in-javascript-5176
       complexity: "1"
       theme: Всплытие
@@ -147,7 +147,7 @@ typeAnswer:
         - "num = 6;"
         - "console.log(num);"
         - "var num;"
-      correctAnswer: 6
+      correctAnswer: "6"
       explanation: https://dev.to/ddhogan/scope-and-hoisting-of-variables-functions-and-this-in-javascript-5176
       complexity: "1"
       theme: Всплытие
@@ -156,7 +156,7 @@ typeAnswer:
       questionDescription: 
         - "console.log(num);"
         - "var num = 6;"
-      correctAnswer: undefined
+      correctAnswer: "undefined"
       explanation: https://dev.to/ddhogan/scope-and-hoisting-of-variables-functions-and-this-in-javascript-5176
       complexity: "1"
       theme: Всплытие
@@ -164,7 +164,7 @@ typeAnswer:
     - questionTitle: Каким будет вывод следующего кода?
       questionDescription: 
         - "new String('Hello') === 'Hello'"
-      correctAnswer: false
+      correctAnswer: "false"
       explanation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
       complexity: "1"
       theme: Типы данных
@@ -172,7 +172,7 @@ typeAnswer:
     - questionTitle: Каким будет вывод следующего кода?
       questionDescription: 
         - "\"string\" instanceof String;"
-      correctAnswer: false
+      correctAnswer: "false"
       explanation: http://qaru.site/questions/2111/why-does-instanceof-return-false-for-some-literals
       complexity: "2"
       theme: Типы данных
@@ -193,26 +193,10 @@ typeAnswer:
         - "return f();"
         - "function f() { return 2; }"
         - "})();"
-      correctAnswer: 2
+      correctAnswer: "2"
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/function
       complexity: "2"
       theme: Функции
-      
-    - questionTitle: Что выведет в консоль?
-      questionDescription:
-        - "var a = 1;"
-        - "var b = function() {"
-        - "a = 10;"
-        - "return a;"
-        - "function a() {"
-        - "a = 5;"
-        - "}"
-        - "};"
-        - "console.log(b(), a);"
-      correctAnswer: [10, 1]
-      explanation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
-      complexity: "2"
-      theme: Всплытие
       
     - questionTitle: Каким будет вывод следующего кода?
       questionDescription:
@@ -232,7 +216,7 @@ typeAnswer:
         - "}"
         - "var y = module.getX;"
         - "console.log(y());"
-      correctAnswer: undefined
+      correctAnswer: "undefined"
       explanation: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Function/bind
       complexity: "2"
       theme: Объекты
